@@ -13,7 +13,7 @@ html {
   height: 800px;
   margin: auto;
   color: #fff;
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   background-color: #1b1919;
 }
@@ -72,15 +72,15 @@ ol {
 }
 
 .content__video-card-thumbnail {
- width: 194px;
- height: 103px;
- overflow: hidden;
+  width: 194px;
+  height: 103px;
+  overflow: hidden;
 }
 
 .content__video-card-thumbnail img {
   width: 100%;
-  height: 100%; 
-  object-fit: cover; 
+  height: 100%;
+  object-fit: cover;
 }
 
 .content__video-card-description-container {
@@ -114,7 +114,7 @@ ol {
 }
 
 .search-form__fieldset-title {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -153,14 +153,13 @@ ol {
 }
 
 .content__video-card-description {
-  font-family: 'Fira Sans Condensed', sans-serif;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 16px;
   letter-spacing: 0em;
   text-align: left;
   padding-top: 6px;
-
 }
 
 .visually-hidden {
@@ -171,7 +170,7 @@ ol {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   white-space: nowrap;
-} 
+}
 
 .search-form {
   min-width: 711px;
@@ -220,7 +219,6 @@ ol {
   border: 1px solid rgba(255, 255, 255, 1);
   color: rgba(255, 255, 255, 1);
   background-color: #1b1919;
-
 }
 
 .search-form__textfield {
@@ -274,7 +272,7 @@ ol {
 
 button:focus,
 .content__video-card:focus {
-  outline: none; 
+  outline: none;
 }
 
 .search-form__submit-button {
@@ -311,13 +309,12 @@ button:active,
   border: 1px solid #000;
 }
 
-
-input[type='checkbox'] + span {
+input[type="checkbox"] + span {
   width: 19px;
   height: 19px;
 }
 
-input[type='checkbox']:checked + span {
+input[type="checkbox"]:checked + span {
   background-color: #fff;
   background-size: contain;
   background-position: center;
@@ -326,6 +323,6 @@ input[type='checkbox']:checked + span {
   outline: 1px solid #fff;
 }
 
-input[type='checkbox']:focus-visible + span {
+input[type="checkbox"]:focus-visible + span {
   margin: 1px;
 }
