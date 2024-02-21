@@ -10,7 +10,7 @@ html {
 
 .page {
   width: 1200px;
-  height: 800px;
+  height: 100%;
   margin: auto;
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
@@ -81,12 +81,6 @@ ol {
   overflow: hidden;
   object-fit: cover;
   
-}
-
-.content__video-card-thumbnail {
-  /* width: 100%;
-  height: 100%; */
-  object-fit: cover;
 }
 
 .content__video-card-description-container {
@@ -164,6 +158,7 @@ ol {
   white-space: nowrap;
   overflow: hidden;
   max-width: 200px;
+  text-transform: uppercase;
 }
 
 .content__video-card-description {
@@ -190,7 +185,7 @@ ol {
 .search-form {
   min-width: 711px;
   height: 100%;
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -227,7 +222,7 @@ ol {
   cursor: pointer;
   min-width: 194px;
   min-height: 34px;
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 700;
   line-height: 22px;
@@ -239,7 +234,7 @@ ol {
 }
 
 .search-form__textfield {
-  font-family: Fira Sans Condensed;
+  font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
   font-weight: 400;
   line-height: 22px;
@@ -307,13 +302,9 @@ button:hover,
   text-decoration: underline;
 }
 
-.search-form__label:event .search-form__label-text:hover {
-  text-decoration: none;
-}
-
-.content__card-link:hover {
+/* .content__card-link:hover {
   outline: 1px solid #fff;
-}
+} */
 
 button:active,
 .content__card-link:active {
